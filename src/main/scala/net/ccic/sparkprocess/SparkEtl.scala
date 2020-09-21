@@ -21,6 +21,7 @@ class SparkEtl(args: Array[String]) {
   * arg(1) -> mode
   * arg(2) -> sql
   * arg(3) -> tbl_name
+  * git success
   */
 object SparkEtl{
   def main(args: Array[String]): Unit = {
