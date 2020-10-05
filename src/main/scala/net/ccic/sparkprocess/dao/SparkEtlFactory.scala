@@ -3,7 +3,7 @@ package net.ccic.sparkprocess.dao
 import net.ccic.sparkprocess.deploy.{ArgumentCycleOperation, ArgumentMerge, ArgumentOverwriteAndAppend}
 import net.ccic.sparkprocess.enter.impl.SparkEtlImpl._
 import net.ccic.sparkprocess.utils.CataLogUtils._
-import net.ccic.udf.define_ccic_udf
+//import net.ccic.udf.define_ccic_udf
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.SparkSession
 
@@ -23,10 +23,10 @@ object  SparkEtlFactory {
     test git
    */
 
-  val sudf = new define_ccic_udf()
-
-  sudf.init(spark)
-  sudf.registerUDF()
+//  val sudf = new define_ccic_udf()
+//
+//  sudf.init(spark)
+//  sudf.registerUDF()
 
 
   /**

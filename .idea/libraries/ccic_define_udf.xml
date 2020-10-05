@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="ccic_define_udf">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../etl/out/ccic_define_udf.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>
